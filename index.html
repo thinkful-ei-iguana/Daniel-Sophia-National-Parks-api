@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,24 @@
   <link rel="stylesheet" href="index.css">
   <title>National Parks Search</title>
 </head>
-<body>
-  
 
+
+<body>
+  <h1>National Parks</h1>
+  <form class="state-form" action="submit">
+    <input type='text' name='limit' value='10'></form>
+    <select name='states' id="state-select">
+      <option value="">Please choose an option</option>
+      <option value="CA">CA</option>
+      <option value="MN">MN</option>
+    </select>
+    <input id="state-submit" type='submit'>Push me!</input>
+  </form>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="index.js"></script>
+  
 </body>
+
 </html>
