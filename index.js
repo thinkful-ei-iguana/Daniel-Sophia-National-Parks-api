@@ -10,12 +10,11 @@ function getParks() {
 
 }
 
-function submitHandler() {
-  $('#state-submit').submit(event => {
+function submitHandler () {
+  $('form').submit(event => {
     event.preventDefault();
     getParks();
-  }
-  );
-};
+  });
+}
 
 submitHandler();
