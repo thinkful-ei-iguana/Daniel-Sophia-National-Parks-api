@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+input {
+  margin: 0 0 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+ul {
+  background-color: lightblue;
+  margin-bottom: 12px;
+}

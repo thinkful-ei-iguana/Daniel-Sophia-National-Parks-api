@@ -14,13 +14,17 @@
     <h1>National Parks</h1>
 
     <form class="state-form" action="submit">
-      <input type='text' name='limit' id='limit' value='10'>
-      <select name='states' id="states">
-        <option value="CA">CA</option>
-        <option value="MN">MN</option>
-      </select>
+      <label for="limit">Number of results</label>
+      <input type='text' name='limit' id='limit' value='10'><br>
+      <label for="states">States to search</label>
+      <input type='text' name='states' id="states" value='tx'><br>
       <button type='submit' value='submit'>submit</button>
     </form>
+
+    <section class="results">
+      
+
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="index.js"></script>
